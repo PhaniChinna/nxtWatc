@@ -1,0 +1,238 @@
+.HeaderPage-container {
+  background-color: #212121;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.Header-image {
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.Header1-Container {
+  display: flex;
+}
+.Header-cgSun {
+  color: white;
+  width: 40px;
+  height: 25px;
+  margin-top: 34px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.Header-Profile {
+  height: 30px;
+  width: 30px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 30px;
+}
+
+.Header-Logout {
+  margin-right: 70px;
+  width: 90px;
+  height: 30px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: white;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Header-FiLogOut {
+  color: white;
+  height: 25px;
+  margin-top: 34px;
+  margin-right: 30px;
+  margin-left: 20px;
+  width: 25px;
+  cursor: pointer;
+}
+
+.Header-home-container {
+  background-color: #212121;
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.Header-un-Ordered {
+  list-style-type: none;
+}
+.Header-Ai-Fill {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18px;
+}
+
+.AiFillHome {
+  color: white;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.Header-Home {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.AiFillFire {
+  color: white;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.Header-Ai-Fire {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18px;
+}
+
+.Header-Trending {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.SiYoubebeagaming {
+  color: white;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.Header-si-youTube {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18px;
+}
+
+.Header-Gaming {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.MdPlayerListAdd {
+  color: white;
+  height: 20px;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 20px;
+}
+
+.Header-md-PalyList {
+  display: flex;
+  flex-direction: row;
+  margin-left: -18px;
+}
+
+.Header-Saved {
+  color: white;
+  font-family: Roboto;
+  font-weight: 400;
+  margin-right: 10px;
+  margin-top: 13px;
+  margin-left: 10px;
+}
+
+.Contact-us {
+  color: white;
+  font-family: Roboto;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 100px;
+  margin-left: 20px;
+}
+
+.Header-Facebook-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Header-Twitter-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Header-Linked-in-logo {
+  width: 30px;
+  height: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.Header-paragraph {
+  color: white;
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 756px) {
+  .Header-Logout {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 756px) {
+  .Header-FiLogOut {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .HeaderPage-container {
+    background-color: #212121;
+    height: 70px;
+    background-size: cover;
+    width: 110vw;
+  }
+  .Header-image {
+    width: 100px;
+    height: 20px;
+  }
+  .Header-cgSun {
+    margin-top: 20px;
+    margin-left: 50px;
+  }
+  .Header-Profile {
+    margin-top: 18px;
+    margin-left: 20x;
+  }
+  .Header-FiLogOut {
+    margin-top: 20px;
+  }
+}

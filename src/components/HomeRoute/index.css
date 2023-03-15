@@ -1,0 +1,9 @@
+.HomePage1-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Homepage2-container {
+  margin-left: 230px;
+  margin-top: -500px;
+}
